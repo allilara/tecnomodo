@@ -79,5 +79,69 @@
     <p>© 2025 TECNOMODO — Todos los derechos reservados.</p>
     <p>Contacto: contacto@tecnomodo.co</p>
   </footer>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #ccc;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #000;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.5rem;
+}
+
+ul, ol {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+  
 </body>
 </html>
